@@ -606,6 +606,16 @@ public final class PowerManager {
     }
 
     /**
+     * @hide
+     */
+    public void shutdown() {
+        try {
+            mService.shutdown(true, false);
+        } catch (RemoteException e) {
+        }
+    }
+
+    /**
      * A wake lock is a mechanism to indicate that your application needs
      * to have the device stay on.
      * <p>
