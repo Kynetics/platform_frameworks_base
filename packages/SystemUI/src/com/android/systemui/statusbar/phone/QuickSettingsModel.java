@@ -289,7 +289,7 @@ class QuickSettingsModel implements BluetoothStateChangeCallback,
     }
 
     void updateResources() {
-        refreshSettingsTile();
+        //refreshSettingsTile();
         refreshBatteryTile();
         refreshBluetoothTile();
         refreshBrightnessTile();

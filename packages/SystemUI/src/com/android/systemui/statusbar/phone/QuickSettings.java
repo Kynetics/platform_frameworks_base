@@ -361,6 +361,7 @@ class QuickSettings {
         */
 
         // Settings tile
+        /*
         final QuickSettingsBasicTile settingsTile = new QuickSettingsBasicTile(mContext);
         settingsTile.setImageResource(R.drawable.ic_qs_settings);
         settingsTile.setOnClickListener(new View.OnClickListener() {
@@ -373,6 +374,7 @@ class QuickSettings {
                 new QuickSettingsModel.BasicRefreshCallback(settingsTile));
         parent.addView(settingsTile);
         mDynamicSpannedTiles.add(settingsTile);
+        */
     }
 
     private void addSystemTiles(ViewGroup parent, LayoutInflater inflater) {
